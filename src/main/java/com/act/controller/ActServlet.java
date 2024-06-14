@@ -109,11 +109,11 @@ public class ActServlet extends HttpServlet {
 				Integer actPicNo = Integer.valueOf(req.getParameter("actPicNo").trim());
 				
 				String actPicName = req.getParameter("actPicName");
-				String actPicReg = "^[(\u4e00-\u9fa5)(a-zA-Z0-9_)]{2,10}$";
+				String actPicNameReg = "^[(\u4e00-\u9fa5)(a-zA-Z0-9_)]{2,10}$";
 				if (actPicName == null || actPicName.trim().length() == 0) {
-					errorMsgs.put("actPic","圖片名稱: 請勿空白");
-				} else if(!actPicName.trim().matches(actPicReg)) { //以下練習正則(規)表示式(regular-expression)
-					errorMsgs.put("actPic","圖片名稱: 只能是中、英文字母、數字和_ , 且長度必需在2到10之間");
+					errorMsgs.put("actPicName","圖片名稱: 請勿空白");
+				} else if(!actPicName.trim().matches(actPicNameReg)) { //以下練習正則(規)表示式(regular-expression)
+					errorMsgs.put("actPicName","圖片名稱: 只能是中、英文字母、數字和_ , 且長度必需在2到10之間");
 	            }
 				
 				

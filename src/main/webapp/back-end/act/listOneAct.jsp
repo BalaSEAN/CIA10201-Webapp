@@ -29,7 +29,8 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top justify-content-center">
 		 <div align="center"> <h2>揪團圖片資料 - listOneAct.jsp</h2>
-		 <h3><a class="navbar-brand" href="<%=request.getContextPath()%>/back-end/act/select_page.jsp"><img src="<%=request.getContextPath()%>/resources/images/back1.gif">回查詢頁${success}</a></h3></div>
+		 <h3><a class="navbar-brand" href="<%=request.getContextPath()%>/back-end/act/select_page.jsp">
+		 <img src="<%=request.getContextPath()%>/resources/images/back1.gif">回查詢頁${success}</a></h3></div>
 </nav>
 
 	<div align="center">
