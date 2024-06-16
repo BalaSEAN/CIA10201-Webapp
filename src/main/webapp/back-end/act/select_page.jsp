@@ -58,7 +58,7 @@
     }
     div.b {
         position: absolute; 
-        bottom: 30%; 
+        bottom: 20%; 
         right: 2%; 
         width: 45%;
         padding: 5px; 
@@ -69,8 +69,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top justify-content-center">
-		 <div align="center"> <h2>揪團圖片管理 - select_page.jsp</h2>
-		 <h3><a class="navbar-brand" href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/resources/images/back1.gif">回index.jsp</a></h3></div>
+		 <div align="center"> <h2>揪團圖片管理 - select_page.jsp</h2><h3><a class="navbar-brand" href="<%=request.getContextPath()%>/index.jsp"><img src="<%=request.getContextPath()%>/resources/images/back1.gif">回index.jsp</a></h3></div>
 </nav>
 
 	<h4><span>資料查詢:</span></h4>

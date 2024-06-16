@@ -37,7 +37,8 @@
 		<h3><span>查詢結果 :</span></h3>
 		<span>揪團圖片編號:</span><span>${actVO.actPicNo}</span><br/>
 		<span>揪團圖片名稱:</span><span>${actVO.actPicName}</span><br/>
-		<span>照片:</span><span><img src="<%=request.getContextPath()%>/act/DBGifReader?actPicNo=${actVO.actPicNo}" width="100px"></span><br/>
+		<span>照片:</span>
+		<span><img src="<%=request.getContextPath()%>/act/DBGifReader?actPicNo=${actVO.actPicNo}" width="100px"></span><br/>
 	</div>
 
 
